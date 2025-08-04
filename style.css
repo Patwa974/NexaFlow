@@ -106,3 +106,32 @@
     font-size: 1em;
     border: 1px solid rgb(35, 57, 223);
 }
+
+
+.feature-sec{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 5em;
+}
+.feature-title{
+    font-size: 2em;
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+.feature-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+}
+.feature-box{
+    width: 30%;
+    height: fit-content;
+    background-color: white;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid rgba(103, 103, 103, 0.525);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
