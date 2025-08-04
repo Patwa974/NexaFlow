@@ -19,6 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: pink;
 }
 
 
@@ -31,7 +32,7 @@
 
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
 }
 .navbar a:hover{
