@@ -13,13 +13,13 @@
 }
 
 .navbar{
-    width: 85%;
+    width: 100%;
     margin: auto;
-    padding: 35px 0;
+    padding: 20px 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: pink;
+    justify-content: space-around;
+    background-color: blue;
 }
 
 
