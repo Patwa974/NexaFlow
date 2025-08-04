@@ -34,9 +34,7 @@
     text-decoration: none;
     color: black;
 }
-.navbar a:hover{
-    color: rgb(219, 223, 105);
-}
+
 .register-box{
     display: flex;
     flex-direction: row;
@@ -53,5 +51,14 @@
     background-color: rgb(162, 121, 212);
 }
 .signup-btn{
-    
+    text-decoration: none;
+    color: rgb(35, 57, 223);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(35, 57, 223);
+}
+.signup-btn:hover{
+    border: 1px solid rgb(15, 11, 19);
+    color: rgb(162, 121, 212);
 }
