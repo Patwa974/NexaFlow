@@ -75,3 +75,33 @@
     width: 50%;
     text-align: left;
 }
+.title{
+    font-size: 2.5em;
+    width: 80%;
+    padding-bottom: 0.2em;
+    font-weight: 600;
+}
+.description{
+    font-size: 1.3em;
+    padding-bottom: 0.2em;
+    width: 65%;
+}
+.big-btn{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 57, 223);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    border: none;
+    margin-right: 1em;
+}
+.lit-btn{
+    text-decoration: none;
+    color: rgb(35, 57, 223);
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    border: 1px solid rgb(35, 57, 223);
+}
