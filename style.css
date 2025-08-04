@@ -7,10 +7,9 @@
 
 .main{
     width: 100%;
-    height: 70vh;
+    height: fit-content;
     background-color: rgb(248, 249, 239);
     position: relative;
-    padding-bottom: 11em;
 }
 
 .navbar{
@@ -21,7 +20,9 @@
     align-items: center;
     justify-content: space-around;
 }
-
+.menu ul{
+    margin: 0;
+}
 
 .menu ul li{
     list-style: none;
@@ -63,10 +64,14 @@
     border: 1px solid rgb(162, 121, 212);
     color: rgb(162, 121, 212);
 }
+.logo{
+    width: 150px;
+    height: auto;
+}
 .main-box{
     display: flex;
     flex-direction: row-reverse;
-    padding: 2em;
+    padding: 0em 2em;
     gap: 2em;
 }
 .text-box{
@@ -106,7 +111,14 @@
     font-size: 1em;
     border: 1px solid rgb(35, 57, 223);
 }
-
+.img-box{
+    width: 100px;
+    height: auto;
+}
+.image1{
+    width: 50%;
+    height: auto;
+}
 
 .feature-sec{
     width: 100%;
@@ -146,6 +158,9 @@
     padding-top: 0.3em;
     padding-bottom: 0.3em;
 }
+.bi-stars{
+    
+}
 
 .impact-sec{
     display: flex;
@@ -158,6 +173,7 @@
     display: flex;
     flex-direction: column;
     padding-right: 5em;
+    padding-top: 6%;
 }
 .impact-textbox h3{
     font-size: 2em;
@@ -169,7 +185,12 @@
     padding-bottom: 0.4em;
     line-height: 2em;
 }
-
+.impact-pic{
+    width: 40%;
+    height: auto;
+    padding-top: 2em;
+    border-radius: 10px;
+}
 .testi-page{
     width: 100%;
     height: fit-content;
