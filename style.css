@@ -62,3 +62,16 @@
     border: 1px solid rgb(162, 121, 212);
     color: rgb(162, 121, 212);
 }
+.main-box{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2em;
+    gap: 2em;
+}
+.text-box{
+    position: absolute;
+    top: 10em;
+    left: 5em;
+    width: 50%;
+    text-align: left;
+}
